@@ -33,8 +33,14 @@ img {
 	margin-right: auto;
 }
 
+.contents {
+	width: 25%;
+	float: left;
+	justify-content: center;
+}
+
 .figure {
-	width: 30%;
+	width: 20%;
 	float: right;
 	justify-content: center;
 }
