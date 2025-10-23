@@ -121,7 +121,7 @@ a.file-link {
 }
 
 /* Setup of background */
-nav {
+background {
 	position: center;
 	width: 100%;
 	background-color: white;
@@ -134,7 +134,7 @@ nav {
   	margin-right:-3.5em;*/
 }
 .background-pic {
-	width: 50%;
+	width: 100%;
 	float: center;
 	justify-content: center;
 }
