@@ -122,11 +122,11 @@ a.file-link {
 
 /* Setup of background */
 background {
-	position: center;
+	position: relative;
 	width: 100%;
 	background-color: white;
 	color: black;
-	height: 100px;
+	height: 200px;
 	display: flex;
 	font-size: 2em;
 	align-items: center;
