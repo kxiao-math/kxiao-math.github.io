@@ -207,4 +207,7 @@ nav dt::after {
 
 main {
 	padding: 1%;
+	display: flex;
+	width: 85vw;
+	margin: auto
 }
