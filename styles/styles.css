@@ -39,6 +39,12 @@ img {
 	justify-content: center;
 }
 
+.background-pic {
+	width: 5%;
+	float: center;
+	justify-content: center;
+}
+
 li {
 	padding-bottom: 1rem;
 }
