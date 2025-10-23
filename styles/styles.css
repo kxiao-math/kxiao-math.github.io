@@ -1,0 +1,185 @@
+/* General setup */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 10px;
+	background-color: beige;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+p, li, dt, dd {
+	font-size: 1.6rem;
+}
+
+img {
+	height: auto;
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.figure {
+	width: 30%;
+	float: right;
+	justify-content: center;
+}
+
+li {
+	padding-bottom: 1rem;
+}
+
+li:last-child {
+	padding-bottom: 0rem;
+}
+
+dd {
+	padding-bottom: 1rem;
+}
+
+dd:last-child {
+	padding-bottom: 0rem;
+}
+
+/*
+dt {
+	float: left;
+	clear: left;
+}
+dt::after {
+	content: ":    ";
+	white-space: pre;
+}
+*/
+
+.paper-author {
+	font-variant-caps: small-caps;
+}
+
+.paper-title {
+	font-style: italic;
+}
+
+.paper-journal {
+	font-weight: bold;
+}
+
+.event-title {
+	font-style: italic;
+}
+
+.event-org {
+	font-style: italic;
+}
+
+.talk-title {
+	font-style: italic;
+}
+
+a.person-link {
+	color: #003d31;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.event-link {
+        color: #003d31;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+a.paper-link {
+        color: #003d31;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+a.file-link {
+        color: #003d31;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+
+/* Setup of navigation bar */
+
+nav {
+	position: relative;
+	width: 100%;
+	background-color: darkolivegreen;
+	color: white;
+	height: 100px;
+	display: flex;
+	font-size: 2.6em;
+	align-items: center;
+	/*margin-left:-3.5em;
+  	margin-right:-3.5em;*/
+}
+
+nav a {
+	color: white;
+	display: flex;
+	text-decoration: none;
+	font-size: 2rem;
+}
+
+a:hover{
+    text-decoration: underline;
+  }
+
+nav ul {
+	list-style-type: none;
+	flex:2;
+	display: flex;
+	text-align: center;
+}
+
+nav ul li {
+	display: flex;
+	flex: 1;
+	text-align: center;
+	align-items: center;
+	padding-bottom: 0rem;
+}
+
+nav h1 {
+	flex: 1;
+	text-align: center;
+}
+
+nav p {
+	display: flex;
+	flex: 0.3;
+	text-align: center;
+}
+
+/*
+nav dt {
+        float: left;
+        clear: left;
+}
+nav dt::after {
+        content: ":    ";
+        white-space: pre;
+}
+*/
+
+/* Main setup */
+
+main {
+	padding: 1%;
+}
