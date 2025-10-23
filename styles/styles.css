@@ -45,12 +45,6 @@ img {
 	justify-content: center;
 }
 
-.background-pic {
-	width: 50%;
-	float: center;
-	justify-content: center;
-}
-
 li {
 	padding-bottom: 1rem;
 }
@@ -124,6 +118,25 @@ a.file-link {
         color: #003d31;
         font-weight: bold;
         text-decoration: none;
+}
+
+/* Setup of background */
+nav {
+	position: relative;
+	width: 100%;
+	background-color: white;
+	color: black;
+	height: 100px;
+	display: flex;
+	font-size: 2em;
+	align-items: center;
+	/*margin-left:-3.5em;
+  	margin-right:-3.5em;*/
+}
+.background-pic {
+	width: 50%;
+	float: center;
+	justify-content: center;
 }
 
 
