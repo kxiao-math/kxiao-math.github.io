@@ -132,6 +132,7 @@ background {
 	display: flex;
 	font-size: 2em;
 	align-items: center;
+	background-image: url(background2-1.jpg);
 	background-repeat: repeat-x;
 	/*margin-left:-3.5em;
   	margin-right:-3.5em;*/
