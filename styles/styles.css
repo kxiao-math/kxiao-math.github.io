@@ -27,6 +27,30 @@ p, li, dt, dd {
 	font-size: 1.6rem;
 }
 
+/* background fonts from google*/
+.dancing-script-unique {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/*.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.parisienne-regular {
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.ms-madi-regular {
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
 img {
 	height: auto;
 	width: 80%;
@@ -36,9 +60,15 @@ img {
 }
 
 .contents {
+	width: 75%;
+	justify-content: center;
+}
+
+.left-nav {
 	width: 25%;
 	float: left;
 	justify-content: center;
+	margin-right: 4em;
 }
 
 .figure {
@@ -147,7 +177,7 @@ background h1 {
 	color:powderblue;
 	text-align: center;
 	font-style: italic;
-	font-size: 5rem;
+	font-size: 8rem;
 }
 
 
