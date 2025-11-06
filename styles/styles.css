@@ -6,7 +6,8 @@ html, body {
 
 html {
 	font-size: 10px;
-	background-color: rgb(139, 149, 168);
+	/* background-color: rgb(139, 149, 168);*/
+	background-image: linear-gradient(to bottom, rgb(139, 149, 168),#96B9D9);
 }
 h4{
 	font-size: 3rem;
@@ -15,8 +16,12 @@ h1 {
 	font-size: 3rem;
 }
 
+hr {
+    border: 1px solid #1d9999;
+}
+
 h2 {
-	font-size: 2.5rem;
+	font-size: 2.8rem;
 }
 
 h3 {
@@ -24,7 +29,7 @@ h3 {
 }
 
 p, li, dt, dd {
-	font-size: 1.6rem;
+	font-size: 2rem;
 }
 
 /* background fonts from google*/
@@ -51,6 +56,7 @@ p, li, dt, dd {
 }
 */
 
+
 img {
 	height: auto;
 	width: 80%;
@@ -60,7 +66,8 @@ img {
 }
 
 .contents {
-	width: 75%;
+	width: 70%;
+	float: right;
 	justify-content: center;
 }
 
@@ -72,8 +79,8 @@ img {
 }
 
 .figure {
-	width: 20%;
-	float: right;
+	width: 100%;
+	float: center;
 	justify-content: center;
 }
 
@@ -176,9 +183,41 @@ background h1 {
 	flex: 1;
 	color:powderblue;
 	text-align: center;
-	font-style: italic;
+	/*font-style: italic;*/
 	font-size: 8rem;
 }
+
+/* Setup of right navigation */
+right-nav {
+	width: 28%;
+	float: right;
+	justify-content: center;
+	margin-left: 4em;
+	text-align: center;
+}
+
+right-nav h1{
+	font-size: 2.5rem;
+} 
+
+right-nav ul {
+	list-style-type: none;
+}
+
+right-nav ul li{
+	list-style-type: none;
+	flex:2;
+	display: flex;
+	text-align: left;
+	font-size: 1.6rem;
+}
+
+right-nav ul li a {
+	list-style-type: none;
+	text-decoration: none;
+	margin-left: 2rem;
+}
+
 
 
 /* Setup of navigation bar */
@@ -233,6 +272,20 @@ nav p {
 	text-align: center;
 }
 
+footer {
+	position: relative;
+	width: 100%;
+	background-image: linear-gradient(to right, rgb(208, 175, 170),rgb(239, 213, 189));
+	color: black;
+	height: 60px;
+	display: flex;
+	font-size: 2rem;
+	align-items: center;
+	margin-top: 4rem;
+	/*margin-left:-3.5em;
+  	margin-right:-3.5em;*/
+}
+
 /*
 nav dt {
         float: left;
@@ -251,5 +304,5 @@ main {
 	display: flex;
 	/* width: 85vw; */
 	width: 80%;
-	margin: auto
+	margin: auto;
 }
