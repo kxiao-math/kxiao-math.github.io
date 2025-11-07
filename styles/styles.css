@@ -4,6 +4,13 @@ html, body {
 	padding: 0;
 }
 
+body {
+	/* make sure that footer is in the bottom */
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
 html {
 	font-size: 10px;
 	/* background-color: rgb(139, 149, 168);*/
@@ -274,13 +281,14 @@ nav p {
 	text-align: center;
 }
 
-.navlist {
+/* dropdown
+.dropdown-logo {
 	display: none;
 	flex-direction: column;
 	cursor: pointer;
 }
 
-.navlist span {
+.dropdown-logo span {
 	width: 25px;
 	height: 3px;
 	background-color: white;
@@ -288,21 +296,60 @@ nav p {
 	transition: 0.4s;
 }
 
-.dropnav {
+
+.dropdown .dropdown-list {
+	display: none;
 	position: absolute;
+	top: 100%;
 	left: 0;
-	right: 0;
-	top: 80px;
+	background-color: #96B9D9;
+	box-shadow: #003d31;
+	border-radius: 4px;
+	padding: 10px 0;
+	list-style: none;
+	margin: 0;
+	z-index: 1000;
 }
+
+.dropdown .dropdown-list li{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.dropdown-list a {
+	padding: 10px 20px;
+	white-space: nowrap;
+	transition: background-color 0.3s;
+}
+
+
 
 @media (max-width: 768px) {
 	nav ul {
 		display: none;
 	}
-	.navlist {
+	.dropdown-logo {
 		display: flex;
 	}
 }
+*/
+
+/* record: code for drop down in html
+<div class="dropdown">
+				<div class="dropdown-logo">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+
+				<ul class="dropdown-list">
+				<li><a href="#">Home</a></li>
+				<li><a href="en/research.html">Research</a></li>
+				<li><a href="en/teaching.html">Teaching</a></li>
+				</ul>
+			</div>
+*/
 
 footer {
 	position: relative;
@@ -337,4 +384,21 @@ main {
 	/* width: 85vw; */
 	width: 80%;
 	margin: auto;
+	flex: 1; /* make sure that footer is in the bottom */
+}
+
+main-research {
+	padding: 1%;
+	/* width: 85vw; */
+	width: 85%;
+	margin: auto;
+	flex: 1; /* make sure that footer is in the bottom */
+}
+
+main-teaching {
+	padding: 1%;
+	/* width: 85vw; */
+	width: 85%;
+	margin: auto;
+	flex: 1; /* make sure that footer is in the bottom */
 }
