@@ -281,7 +281,19 @@ nav p {
 	text-align: center;
 }
 
-/* dropdown
+
+
+/*
+.dropdown {
+	position: relative;
+	height: 60px;
+	display: flex;
+	font-size: 2em;
+	align-items: center;
+	/margin-left:-3.5em;
+  	margin-right:-3.5em;/
+}
+
 .dropdown-logo {
 	display: none;
 	flex-direction: column;
@@ -323,6 +335,9 @@ nav p {
 	transition: background-color 0.3s;
 }
 
+.dropdown-logo:hover .dropdown-list {
+	display: block;
+}
 
 
 @media (max-width: 768px) {
@@ -341,14 +356,13 @@ nav p {
 					<span></span>
 					<span></span>
 					<span></span>
-				</div>
-
 				<ul class="dropdown-list">
 				<li><a href="#">Home</a></li>
 				<li><a href="en/research.html">Research</a></li>
 				<li><a href="en/teaching.html">Teaching</a></li>
 				</ul>
-			</div>
+				</div>
+</div>
 */
 
 footer {
