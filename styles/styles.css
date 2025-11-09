@@ -166,7 +166,19 @@ a.file-link {
         text-decoration: none;
 }
 
-/* Setup of background */
+/* Setup of background (home/research/teaching)*/
+
+.right-bottom-text {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	color:powderblue;
+	padding: 5px 10px;
+	border-radius: 4px;
+	font-size: 14px;
+	font-style: italic;
+}
+
 background {
 	position: relative;
 	text-align: center;
@@ -177,7 +189,7 @@ background {
 	display: flex;
 	font-size: 2em;
 	align-items: center;
-	background-image: url(background2-1.jpg);
+	background-image: url(../images/background2-1.jpg);
 	background-position: right center;
 	background-size: cover;
 	background-repeat: repeat-x;
@@ -193,6 +205,34 @@ background h1 {
 	/*font-style: italic;*/
 	font-size: 8rem;
 }
+
+background-research {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	color: black;
+	height: 410px;
+	display: flex;
+	font-size: 2em;
+	align-items: center;
+	background-image: url(../images/background1-1.jpg);
+	background-position: right center;
+	background-size: cover;
+	background-repeat: repeat-x;
+	object-fit: contain;
+	/*margin-left:-3.5em;
+  	margin-right:-3.5em;*/
+}
+
+background-research h1 {
+	flex: 1;
+	color:powderblue;
+	text-align: center;
+	/*font-style: italic;*/
+	font-size: 8rem;
+}
+
 
 /* Setup of right navigation */
 right-nav {
@@ -221,12 +261,22 @@ right-nav ul li{
 	font-size: 1.4rem;
 }
 
+right-nav ul li span{
+	margin-right: 1rem;
+}
+
 right-nav ul li a {
 	list-style-type: none;
 	text-decoration: none;
-	margin-left: 1rem;
 }
 
+right-nav ul li img{
+	height: 24px;
+	width: auto;
+	display: block;
+	margin-left: 0;
+	margin-right: 1rem;
+}
 
 
 /* Setup of navigation bar */
@@ -368,7 +418,7 @@ nav p {
 footer {
 	position: relative;
 	width: 100%;
-	background-image: linear-gradient(to right, rgb(208, 175, 170),rgb(239, 213, 189));
+	background-image: linear-gradient(to bottom,#91A3BB, #91A3BB);
 	color: black;
 	height: 60px;
 	display: flex;
