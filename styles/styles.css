@@ -217,7 +217,7 @@ background-research {
 	font-size: 2em;
 	align-items: center;
 	background-image: url(../images/background1-1.jpg);
-	background-position: right center;
+	background-position: center;
 	background-size: cover;
 	background-repeat: repeat-x;
 	object-fit: contain;
@@ -233,6 +233,32 @@ background-research h1 {
 	font-size: 8rem;
 }
 
+background-teaching {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	color: black;
+	height: 410px;
+	display: flex;
+	font-size: 2em;
+	align-items: center;
+	background-image: url(../images/background3-1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: repeat-x;
+	object-fit: contain;
+	/*margin-left:-3.5em;
+  	margin-right:-3.5em;*/
+}
+
+background-teaching h1 {
+	flex: 1;
+	color:powderblue;
+	text-align: center;
+	/*font-style: italic;*/
+	font-size: 8rem;
+}
 
 /* Setup of right navigation */
 right-nav {
