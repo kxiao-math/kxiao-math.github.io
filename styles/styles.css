@@ -1,20 +1,45 @@
 /* General setup */
-html, body {
+html {
 	margin: 0;
 	padding: 0;
 }
 
 body {
 	/* make sure that footer is in the bottom */
+	margin: 0;
+	padding: 0;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	font-family: 'Microsoft YaHei';
+	background-image: linear-gradient(to bottom, rgb(139, 149, 168),#96B9D9);
+}
+
+body-research {
+	/* make sure that footer is in the bottom */
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Microsoft YaHei';
+	background-image: linear-gradient(to bottom, rgb(139, 149, 168),#96B9D9);
+}
+body-teaching {
+	/* make sure that footer is in the bottom */
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Microsoft YaHei';
+	background-image: linear-gradient(to bottom, rgb(139, 149, 168),#96B9D9);
 }
 
 html {
 	font-size: 10px;
 	/* background-color: rgb(139, 149, 168);*/
-	background-image: linear-gradient(to bottom, rgb(139, 149, 168),#96B9D9);
+	/*background-image: linear-gradient(to bottom, rgb(139, 149, 168),#96B9D9);*/
 }
 h4{
 	font-size: 3rem;
@@ -310,7 +335,7 @@ right-nav ul li img{
 nav {
 	position: relative;
 	width: 100%;
-	background-image: linear-gradient(to right, rgb(208, 175, 170),rgb(239, 213, 189));
+	background-image: linear-gradient(to right, #D0AFAA,rgb(239, 213, 189));
 	color: black;
 	height: 60px;
 	display: flex;
@@ -356,7 +381,106 @@ nav p {
 	flex: 0.3;
 	text-align: center;
 }
+/*nav-research*/
+nav-research {
+	position: relative;
+	width: 100%;
+	background-image: linear-gradient(to right, #8B98A0,#EFF2E9);
+	color: black;
+	height: 60px;
+	display: flex;
+	font-size: 2em;
+	align-items: center;
+	/*margin-left:-3.5em;
+  	margin-right:-3.5em;*/
+}
 
+nav-research a {
+	color: black;
+	display: flex;
+	text-decoration: none;
+	font-size: 2rem;
+}
+
+a:hover{
+    text-decoration: underline;
+  }
+
+nav-research ul {
+	list-style-type: none;
+	flex:2;
+	display: flex;
+	text-align: center;
+}
+
+nav-research ul li {
+	display: flex;
+	flex: 1;
+	text-align: center;
+	align-items: center;
+	padding-bottom: 0rem;
+}
+
+nav-research h1 {
+	flex: 1;
+	text-align: center;
+}
+
+nav-research p {
+	display: flex;
+	flex: 0.3;
+	text-align: center;
+}
+/* nav-teaching*/
+nav-teaching {
+	position: relative;
+	width: 100%;
+	background-image: linear-gradient(to right, #B0BDC3,#AFB6C0);
+	color: black;
+	height: 60px;
+	display: flex;
+	font-size: 2em;
+	align-items: center;
+	/*margin-left:-3.5em;
+  	margin-right:-3.5em;*/
+}
+
+nav-teaching a {
+	color: black;
+	display: flex;
+	text-decoration: none;
+	font-size: 2rem;
+}
+
+a:hover{
+    text-decoration: underline;
+  }
+
+nav-teaching ul {
+	list-style-type: none;
+	flex:2;
+	display: flex;
+	text-align: center;
+}
+
+nav-teaching ul li {
+	display: flex;
+	flex: 1;
+	text-align: center;
+	align-items: center;
+	padding-bottom: 0rem;
+}
+
+nav-teaching h1 {
+	flex: 1;
+	text-align: center;
+}
+
+nav-teaching p {
+	display: flex;
+	flex: 0.3;
+	text-align: center;
+}
 
 
 /*
