@@ -23,7 +23,7 @@ body-research {
 	display: flex;
 	flex-direction: column;
 	font-family: 'Microsoft YaHei';
-	background-image: linear-gradient(to bottom, rgb(139, 149, 168),#96B9D9);
+	background-image: linear-gradient(to bottom, #98A2AB,#7c95a5);
 }
 body-teaching {
 	/* make sure that footer is in the bottom */
@@ -33,7 +33,7 @@ body-teaching {
 	display: flex;
 	flex-direction: column;
 	font-family: 'Microsoft YaHei';
-	background-image: linear-gradient(to bottom, rgb(139, 149, 168),#96B9D9);
+	background-image: linear-gradient(to bottom, #7D855D,#89ADD5);
 }
 
 html {
@@ -268,7 +268,7 @@ background-teaching {
 	display: flex;
 	font-size: 2em;
 	align-items: center;
-	background-image: url(../images/background3-1.jpg);
+	background-image: url(../images/background3-3.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: repeat-x;
@@ -435,7 +435,7 @@ nav-research p {
 nav-teaching {
 	position: relative;
 	width: 100%;
-	background-image: linear-gradient(to right, #B0BDC3,#AFB6C0);
+	background-image: linear-gradient(to right, #88AED5,#A7BBD5);
 	color: black;
 	height: 60px;
 	display: flex;
@@ -581,6 +581,29 @@ footer {
 }
 
 footer h1{
+	flex: 1;
+	font-size: 1rem;
+	color:black;
+	align-items: center;
+	text-align: center;
+}
+
+footer-teaching{
+	position: relative;
+	width: 100%;
+	background-image: linear-gradient(to bottom,#89ADD5, #89ADD5);
+	color: black;
+	height: 60px;
+	display: flex;
+	font-size: 2rem;
+	align-items: center;
+	text-align: center;
+	margin-top: 4rem;
+	/*margin-left:-3.5em;
+  	margin-right:-3.5em;*/
+}
+
+footer-teaching h1{
 	flex: 1;
 	font-size: 1rem;
 	color:black;
